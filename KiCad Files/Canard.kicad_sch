@@ -3268,6 +3268,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 74.93) (xy 255.27 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50d655a3-e1bb-415f-bd68-3808543f5ac0")
+	)
+	(wire
+		(pts
 			(xy 227.33 97.79) (xy 232.41 97.79)
 		)
 		(stroke
@@ -3425,6 +3435,16 @@
 			(type default)
 		)
 		(uuid "69920095-cd53-4550-9d2c-7009caf0564d")
+	)
+	(wire
+		(pts
+			(xy 256.54 77.47) (xy 255.27 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a88aad9-c695-4df5-9e3d-2c98cd375b6c")
 	)
 	(wire
 		(pts
@@ -6524,7 +6544,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 260.35 74.93 0)
+		(at 261.62 77.47 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6532,10 +6553,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "24e29ba7-0a38-4eff-9c20-e4e5b1ccfebf")
 		(property "Reference" "J1"
-			(at 261.62 74.9299 0)
+			(at 262.89 77.4701 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6546,7 +6566,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 261.62 77.4699 0)
+			(at 262.89 74.9301 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6557,7 +6577,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
-			(at 260.35 74.93 0)
+			(at 261.62 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6568,7 +6588,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 74.93 0)
+			(at 261.62 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6579,7 +6599,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 260.35 74.93 0)
+			(at 261.62 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -70,7 +70,16 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "starved_thermal|321945000|24288750|733a248b-3dfd-4116-99ed-c8171fa5bab7|0552c349-631c-49a7-b7a1-79ff47b8c686|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|321945000|24288750|733a248b-3dfd-4116-99ed-c8171fa5bab7|0552c349-631c-49a7-b7a1-79ff47b8c686|F.Cu",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -524,7 +533,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../Production/Canard Gerbers/",
       "specctra_dsn": "",
       "vrml": ""
     },
